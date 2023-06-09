@@ -1,0 +1,51 @@
+<html>
+    <style>
+        label{
+color:#b54a66;
+font-size: large;
+        }
+        option{
+            color:#b54a66;   
+        }
+        #gender{
+            color: #b54a66;
+            text-decoration-color: #b54a66;
+        }
+     
+    </style>
+    <body>
+        <center><h2 style="color: #b54a66;">Student Registration Form</h2></center>
+        <form>
+            <center><fieldset style="width:50%; border-radius:5%;">
+                <legend style="background-color: #b54a66;border:solid;  color: white; font-size:x-large; border-style:hidden;">Employee Details</legend>
+                <label>First Name:</label>
+                <input type="text" id="fname" placeholder="Enter First Name"><br><br>
+                <label>Last Name:</label>
+                <input type="text" id="lname"placeholder="Enter Last Name"><br><br>
+                <label>Email:</label>
+                <input type="email" id="email"><br><br>
+                <label>Password:</label>
+                <input type="password" id="password"><br><br>
+                <label>Contact Number:</label>
+                <input type="tel"><br><br>
+                <label>Date of Birth:</label>
+                <input type="date"><br><br>
+                <label>Gender:</label>
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <input type="radio" id="gender"  name="gender"value="female">Female
+                <input type="radio" id="gender" name="gender" value="others">Others<br><br>
+                <label>Branch:</label>
+                <select style="background-color:#b54a66;color: white;border-style: hidden;">
+                    <option>Science</option>
+                    <option>Commerce</option>
+                    <option>Arts</option>
+                </select><br><br>
+                <label>Address:</label>
+                <textarea></textarea><br><br>
+                <input type="submit" value="Register" style="background-color: #b54a66; color: white;border-style:hidden; font-size: large;">
+                <input type="reset" value="Reset" style="background-color:#b54a66;color: white; border-style: hidden;font-size: large;">
+            </fieldset>
+        </center>
+        </form>
+    </body>
+</html>
